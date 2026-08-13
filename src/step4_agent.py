@@ -1,5 +1,10 @@
 import os
+import sys
 from dotenv import load_dotenv
+
+# Garante que a pasta 'src' está no path de importação
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from langchain_google_genai import ChatGoogleGenerativeAI
 from step3_retriever import search_documents
 
