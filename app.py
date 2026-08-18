@@ -257,6 +257,56 @@ st.markdown(f"""
     img {{
         border-radius: 10px;
     }}
+
+    /* -------------------------------------------------------------
+       RESPONSIVIDADE (Telas menores que 768px)
+       ------------------------------------------------------------- */
+    @media (max-width: 767px) {{
+        /* 1. Títulos principais e Hero Title menores */
+        h1 {{
+            font-size: 1.6rem !important;
+        }}
+        h2 {{
+            font-size: 1.4rem !important;
+        }}
+        h3 {{
+            font-size: 1.2rem !important;
+        }}
+        .hero-title {{
+            font-size: 1.5rem !important;
+        }}
+        .hero-subtitle {{
+            font-size: 0.9rem !important;
+        }}
+        
+        /* 2. Diminuição de padding do Hero Container e dos cards */
+        .hero-container {{
+            padding: 16px 20px !important;
+            margin-bottom: 16px !important;
+        }}
+        
+        div[data-testid="stVerticalBlock"] > div[style*="border"] {{
+            padding: 12px !important;
+            margin-bottom: 12px !important;
+        }}
+        
+        /* 3. Ajuste de botões e badges para maior facilidade de toque */
+        .badge {{
+            padding: 5px 12px !important;
+            font-size: 0.75rem !important;
+            margin-bottom: 6px !important;
+        }}
+        
+        /* Botões de rádio / navegação lateral */
+        div[data-testid="stRadio"] div[role="radiogroup"] label {{
+            padding: 10px 14px !important;
+        }}
+        
+        button {{
+            min-height: 44px !important;
+            padding: 10px 16px !important;
+        }}
+    }}
 </style>
 """, unsafe_allow_html=True)
 
