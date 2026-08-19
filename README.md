@@ -7,9 +7,13 @@ Aplicação corporativa com pipeline **RAG (Retrieval-Augmented Generation)** po
 
 ## 📸 Demonstração e Evidências do Deploy em Nuvem
 
-**🔗 Acesso à Aplicação:** [CyberCore Robotics - Assistente Virtual](https://cybercore-robotics-agent.streamlit.app/)
+**🔗 Links de Acesso à Aplicação:**
+* **Deploy no Streamlit Community Cloud:** [Assistente Virtual (Streamlit Share)](https://cybercore-robotics-agent.streamlit.app/)
+* **Deploy na Oracle Cloud Infrastructure (OCI):** [Assistente Virtual (OCI VM)](http://147.15.24.115:8501/)
 
-A aplicação foi implantada e validada em ambiente de nuvem, permitindo auditoria, rastreabilidade e consultas em tempo real da execução.
+A aplicação foi implantada e validada em ambos os ambientes de nuvem, permitindo auditoria, rastreabilidade e consultas em tempo real da execução.
+
+### 🌐 Deploy 1: Streamlit Community Cloud
 
 | Evidência 1: Catálogo de Modelos | Evidência 2: Consulta RAG com Citação de Fontes |
 | :---: | :---: |
@@ -18,6 +22,16 @@ A aplicação foi implantada e validada em ambiente de nuvem, permitindo auditor
 | Evidência 3: Alternância de Tema e Interação |
 | :---: |
 | ![Evidência 3](assets/evidencia_deploy_nuvem_3.jpg) |
+
+### ☁️ Deploy 2: Oracle Cloud Infrastructure (OCI)
+
+| Evidência 4: Painel Principal / Catálogo (OCI) | Evidência 5: Consulta RAG (OCI) |
+| :---: | :---: |
+| ![Evidência 4](assets/evidencia_deploy_nuvem_4.jpg) | ![Evidência 5](assets/evidencia_deploy_nuvem_5.jpg) |
+
+| Evidência 6: Interação e Resposta Completa (OCI) |
+| :---: |
+| ![Evidência 6](assets/evidencia_deploy_nuvem_6.jpg) |
 
 ---
 
